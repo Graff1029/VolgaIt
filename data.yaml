@@ -1,0 +1,7 @@
+path: E:\AI_polufinal\datasets
+train: images
+val: images
+test: images
+
+nc: 1
+names: ['number_plate']
