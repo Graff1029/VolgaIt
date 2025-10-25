@@ -9,7 +9,7 @@ def main():
     print("Загружаем модели")
 
     #загружаем наши модели
-    detection_model = YOLO('runs/detect/train/weights/best.pt')
+    detection_model = YOLO('runs/detect/train8/weights/best.pt')
     ocr_reader = easyocr.Reader(['en'])
 
     #открытие видеофайла
