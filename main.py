@@ -66,7 +66,7 @@ def main():
                     continue
         frame_count += 1
         if frame_count % 100 == 0:
-            print(f"Обработано кадров: {frame_count}")#пргресс каждые 100 кадров
+            print(f"Обработано кадров: {frame_count}")#прогресс каждые 100 кадров
     cap.release()
     results_file.close()
     print("Обработка видео завершена")
